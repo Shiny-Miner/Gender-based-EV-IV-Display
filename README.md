@@ -5,8 +5,8 @@ https://github.com/Shiny-Miner/GBA-Binary-hacking-assets/wiki/Tutorial-:-Inserti
 
 # Boy Version
 
-![](BPRE-2.png)
+![](test-1.png)
 
 # Girl Version
 
-![](BPRE-3.png)
+![](test-2.png)
