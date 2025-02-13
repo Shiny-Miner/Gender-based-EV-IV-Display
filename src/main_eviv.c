@@ -763,11 +763,11 @@ static const u8 *const gTextColorByNature[] =
 //Texts to display according to defined language (capitalize if necessary)
 //Textos a mostrar segun idioma definido (capitalizar si es necesario)
 const u8 gText_CensorEgg[]  = _("{CLEAR_TO 12}-{CLEAR_TO 42}-{CLEAR_TO 72}-");
-const u8 gText_BsEvIv[] = _(" Bs{CLEAR_TO 30} Ev{CLEAR_TO 60} Iv");
+const u8 gText_BsEvIv[] = _(" BS{CLEAR_TO 30} EV{CLEAR_TO 60} IV");
 const u8 gText_Total[]  = _("Total:");
 
-const u8 gArrowU[]        = _("{0x79}");
-const u8 gArrowD[]        = _("{0x7A}");
+const u8 gArrowU[]        = _("{0x7A}");
+const u8 gArrowD[]        = _("{0x79}");
 
 const u8 gMale[]            = _("♂");
 const u8 gFemale[]          = _("♀");
@@ -856,7 +856,7 @@ const u8 gText_SpAtk[]  = _("Sp. Atk.");
 const u8 gText_SpDef[]  = _("Sp. Def.");
 const u8 gText_Speed[]  = _("Speed");
 
-const u8 gText_Your[]   = _("Your ");
+const u8 gText_Your[]   = _("");
 const u8 gText_Is[]     = _(" is ");
 const u8 gText_Happy[]  = _("% happy.");
 const u8 gLevel[]  = _("Lv. ");
@@ -1221,10 +1221,10 @@ static void PrintWindow2(u16 species, u8 isEgg, u8 friendship)
             switch (gGen)
             {
             case MON_MALE:
-            AddTextPrinterParameterized3(WIN_POKEMON_NAME, 2, 66, 3, gBlueTextColor,  0, gMale);
+            AddTextPrinterParameterized3(WIN_POKEMON_NAME, 2, 58, 3, gBlueTextColor,  0, gMale);
             break;
             case MON_FEMALE:
-            AddTextPrinterParameterized3(WIN_POKEMON_NAME, 2, 66, 3, gRedTextColor, 0, gFemale);
+            AddTextPrinterParameterized3(WIN_POKEMON_NAME, 2, 58, 3, gRedTextColor, 0, gFemale);
             break;
             }
         }
