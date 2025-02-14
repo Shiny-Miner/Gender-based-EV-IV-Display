@@ -766,8 +766,8 @@ const u8 gText_CensorEgg[]  = _("{CLEAR_TO 12}-{CLEAR_TO 42}-{CLEAR_TO 72}-");
 const u8 gText_BsEvIv[] = _(" BS{CLEAR_TO 30} EV{CLEAR_TO 60} IV");
 const u8 gText_Total[]  = _("Total:");
 
-const u8 gArrowU[]        = _("{0x7A}");
-const u8 gArrowD[]        = _("{0x79}");
+const u8 gArrowU[]        = _("{0x79}");
+const u8 gArrowD[]        = _("{0x7A}");
 
 const u8 gMale[]            = _("♂");
 const u8 gFemale[]          = _("♀");
